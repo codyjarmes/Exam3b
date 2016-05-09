@@ -60,7 +60,7 @@ public class ReadRecord {
     
       try {
           //set up a string to hold our query
-          String query = "SELECT * FROM customers WHERE custID = ?";
+          String query = "SELECT * FROM Customers WHERE custID = ?";
           
           //create a prepared statement using our query string
           PreparedStatement ps = conn.prepareStatement(query);
