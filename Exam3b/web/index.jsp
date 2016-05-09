@@ -13,6 +13,9 @@
     </head>
     <body>
         <h1>Customer Contact Details</h1>
+        
         <a href="read"> View All Customers</a>
+        <br><br>
+        <a href="search"> Search Customers</a>
     </body>
 </html>
