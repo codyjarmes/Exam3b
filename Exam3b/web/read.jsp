@@ -1,22 +1,29 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Customer Contact Details Database</title>
-    </head>
-    
-    <% String table = (String) request.getAttribute("table"); %>
-    
-    <body>
-        <h1>Customer Contacts</h1>
-        
-        <%=table%>
-        
-        <br><br>
-        <a href="add"> Add A New Customer </a>
-        <br><br>
-        <a href="search.jsp"> Search Customers </a>
-        
-    </body>
-</html>
+<link rel="StyleSheet" href="style.css" type="text/css">
+<title> Cleveland Indians' Customer Contact Details</title>
+
+<body>
+<div class="wrap">
+                <div class="header">
+                <%@ include file = "includes/header.jsp"%>
+                <br><br>
+                </div>
+               
+                <div class="main">
+                <%@ include file = "includes/menu.jsp"%>
+                <% String table = (String) request.getAttribute("table"); %>
+                <%=table%>
+                <br><br>
+                </div>
+                
+                <div class="footer">  
+                    
+                <%@ include file = "includes/footer.jsp"%>
+                <br><br>
+                </div> <!--Close footer div -->
+                
+                </div>
+</body>
+
+                
+
+                

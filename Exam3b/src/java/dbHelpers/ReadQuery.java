@@ -108,7 +108,7 @@ public class ReadQuery {
         table += "</th>";
         
         table += "<th>";
-        table += " ";
+        table += "Add/Update";
         table += "</th>";
         
         

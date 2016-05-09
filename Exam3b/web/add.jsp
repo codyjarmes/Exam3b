@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+ <link rel="StyleSheet" href="style.css" type="text/css">
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,6 +14,10 @@
     </head>
     <body>
         <h1>Add A New Customer</h1>
+        <div class="wrap">
+            <%@ include file = "includes/header.jsp"%>
+            <%@ include file = "includes/menu.jsp"%>
+        </div>
         
         <form name="addForm" action="addCustomer" method="get">
   

@@ -68,7 +68,7 @@ public class DeleteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        //get the PlayerID
+        //get the custID
         int custID = Integer.parseInt(request.getParameter("custID"));
         
         //create a deleteQuery object

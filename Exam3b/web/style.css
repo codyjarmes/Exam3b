@@ -1,4 +1,84 @@
+body { 
 
-.update {
+    text-align: center;
+    margin:0 auto;
+    background-color: #0000b3;
+   
 
+}
+
+
+.wrap {
+    
+text-align: center; width: 90%; margin: 0 auto; border: 8px solid black; margin-top: 10px;
+background-color: white;
+}
+
+.header {
+width: 100%;
+background-color: white;
+}
+
+
+.footer {
+
+}
+
+table {
+    
+    border-collapse: collapse;
+    text-align: left;
+    color: black; 
+    width: 90%;
+  
+}
+
+th {
+    font-weight:bold; 
+    text-align: left;
+    
+}
+
+td{
+   vertical-align: bottom;
+}
+
+
+.headertext {
+font-weight:bold;
+}
+
+.indexImage {
+    
+    padding:25px;
+    height: auto;
+
+}
+
+
+
+
+
+
+.navcontainer {
+    
+    font-weight:bold; 
+    text-align: left;
+    display:inline;
+    text-align: justify;
+    list-style: block;
+    font-size: 20px;
+    list-style-type: none;
+
+}
+
+
+
+.updatePage {
+background-color: white;
+padding:45px;
+}
+
+.main {
+color: black;
 }

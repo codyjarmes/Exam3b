@@ -5,17 +5,20 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="StyleSheet" href="style.css" type="text/css">
         <title>Update Customer</title>
         
 
     </head>
     <body>
-   
-              
+   <div class="wrap">
+        <%@ include file = "includes/header.jsp"%>
+        <%@ include file = "includes/menu.jsp"%> 
+   </div>
         <form name="updateForm" action="updateCustomer" method="get">
    
             
-            
+            <div class="updatePage"> 
             <label>Customer ID:</label>
             <input type="text" name="custID" value="<%= customer.getCustID()%>"/>
             <br>
@@ -46,7 +49,7 @@
             <input type="submit" name="submit" value="Update" />
             
         </form>
-     <div>
         </div>
+        <%@ include file = "includes/footer.jsp"%>
     </body>
 </html>
