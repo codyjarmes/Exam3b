@@ -84,11 +84,11 @@ public class ReadQuery {
         table += "</th>";
         
         table += "<th>";
-        table += "Address1";
+        table += "Address 1";
         table += "</th>";
-        
+                
         table += "<th>";
-        table += "Address2";
+        table += "Address 2";
         table += "</th>";
         
         table += "<th>";
